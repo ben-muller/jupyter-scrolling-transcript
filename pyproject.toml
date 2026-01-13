@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "jupyter-scrolling-transcript"
+version = "0.1.0"
+description = "A dual-mode scrolling widget for streaming text in Jupyter."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [
+    { name = "Ben Muller", email = "benmull99@gmail.com" }
+]
+requires-python = ">=3.8"
+dependencies = [
+    "ipywidgets>=7.0.0",
+    "ipython>=7.0.0"
+]
+
+# [project.urls]
+# Homepage = "https://github.com/example/jupyter-scrolling-transcript"
