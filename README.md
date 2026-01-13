@@ -1,5 +1,9 @@
 # Jupyter Scrolling Transcript Widget
 
+<div align="center">
+  <img src="./assets/demo.gif" width="600" alt="Jupyter Scrolling Transcript Demo">
+</div>
+
 A high-performance Jupyter widget for displaying streaming text with dual-mode scrolling behavior. Designed for live transcripts, logs, teleprompters, and subtitles.
 
 ## Features
@@ -14,8 +18,10 @@ A high-performance Jupyter widget for displaying streaming text with dual-mode s
 
 ## Installation
 
+You can install the widget directly from GitHub:
+
 ```bash
-pip install jupyter-scrolling-transcript
+pip install git+https://github.com/ben-muller/jupyter-scrolling-transcript.git
 ```
 
 ## Usage
